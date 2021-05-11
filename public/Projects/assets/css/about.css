@@ -1,0 +1,71 @@
+.mission h3 {
+    margin: 10px 0 0 0;
+  padding: 10px;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+
+}
+.vision h3 {
+    margin: 10px 0 0 0;
+  padding: 10px;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+
+}
+
+.founder img{
+    border-radius: 20px;
+    box-shadow:  2px 2px 20px rgba(1, 41, 112, 0.1);
+}
+.founder h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.founder p{
+   text-align: center;
+}
+
+.row .col-sm-12{
+   align-items: center;
+   padding: 50px;
+   padding-left: 120px;
+}
+
+.ceo img{
+    margin-top: 10rem;
+    border-radius: 20px;
+    box-shadow:  0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.ceo h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+.ceo p{
+   text-align: center;
+}
+.goal{
+    padding: 70px;
+    
+}
+.container-goal{
+    text-align: justify;
+    width: auto;
+    height: auto;
+    line-height: 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 75px;
+    border: 3px solid #012970;
+    box-shadow:  10px 10px 20px rgba(1, 41, 112, 0.1);
+}

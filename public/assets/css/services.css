@@ -1,0 +1,107 @@
+   
+
+.service-title{
+    text-align: center;
+  }
+  .maincard {
+  
+    position: relative;
+    width: 400px;
+    height: 400px;
+  
+  }
+  
+  .thecard {
+    position: absolute;
+    width: 75%;
+    height: 85%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+  }
+  
+  .thecard:hover {
+    transform: rotateY(180deg)
+  }
+  
+  .thefront {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: hidden;
+    background: #fff;
+    color: #444444;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px;
+    
+  }
+  
+  .blue{
+    border-bottom: 5px solid #2db6fa;
+  }
+  .orange{
+    border-bottom: 5px solid #f68c09;
+  }
+  .green{
+    border-bottom: 5px solid #08da4e;
+  }
+  .red{
+    border-bottom: 5px solid #e9222c;
+  }
+  .purple{
+    border-bottom: 5px solid #b50edf;
+  }
+  .pink{
+    border-bottom: 5px solid #f51f9c;
+  }
+  
+  
+  
+  
+  .theback {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
+    background-color: hidden;
+    background: #11139e;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+  }
+  
+  .blue1{
+    background-color: #2db6fa;
+  }
+  .orange1{
+    background-color: #f68c09;
+  }
+  .green1{
+    background-color: #08da4e;
+  }
+  .red1{
+    background-color: #e9222c;
+  }
+  .purple1{
+    background-color: #b50edf;
+  }
+  .pink1{
+    background-color: #f51f9c;
+  }
+  
+  
+  .user_name {
+    color: #eee;
+    font-size: 10px;
+    margin-top: 0px
+  }
+  
+  .about {
+    font-size: 15px;
+  }

@@ -1,0 +1,470 @@
+var NewComponent = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <meta charSet="utf-8" />
+          <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+          <title>Stonedge Technologies and Robotics</title>
+          <meta content name="description" />
+          <meta content name="keywords" />
+          <link href="assets/images/logo1.png" rel="icon" />
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+          <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+          <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+          <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+          <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+          <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+          <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+          <link href="assets/css/style.css" rel="stylesheet" />
+          <header id="header" className="header fixed-top">
+            <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
+              <a href="index.html" className="logo d-flex align-items-center">
+                <img src="assets/images/logo1.png" alt="stonedge logo" width="50px" height="70px" />
+                <span>Stonegde</span>
+              </a>
+              <nav id="navbar" className="navbar">
+                <ul>
+                  <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
+                  <li><a className="nav-link scrollto" href="#about">About</a></li>
+                  <li className="dropdown"><a href="#"><span>Projects</span> <i className="bi bi-chevron-down" /></a>
+                    <ul>
+                      <li><a href="#">Kvik Shine</a></li>
+                      <li className="dropdown"><a href="#"><span>Restrobox</span> <i className="bi bi-chevron-right" /></a>
+                        <ul>
+                          <li><a href="#">Smart Machines</a></li>
+                          <li><a href="#">Accessible Machines</a></li>
+                          <li><a href="#">Processing Machines</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a className="nav-link scrollto" href="#team">Team</a></li>
+                  <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+                  <li><a className="nav-link scrollto" href="#careers">Careers</a></li>
+                </ul>
+                <i className="bi bi-list mobile-nav-toggle" />
+              </nav>
+            </div>
+          </header>
+          <section id="hero" className="hero d-flex align-items-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6 d-flex flex-column justify-content-center">
+                  <h1 data-aos="fade-up">Stonedge <br />Technologies and Robotics</h1>
+                  <h2 data-aos="fade-up" data-aos-delay={400}> Welcome to the world of Stonedge  in creating innovative product research &amp; development with Technologies &amp; Robotics advancements in your daily life. </h2>
+                  <div data-aos="fade-up" data-aos-delay={600}>
+                  </div>
+                </div>
+                <div className="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay={200}>
+                  <img src="assets/images/image.png" className="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <main id="main">
+            <section id="about" className="about">
+              <div className="container" data-aos="fade-up">
+                <div className="row gx-0">
+                  <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay={200}>
+                    <div className="content">
+                      <h3>Who We Are</h3>
+                      <p>Stonedge Technologies &amp; Robotics is a leading producer of automated systems and solution providers to enhance the standards of business through automation. Confronting with the toughest challenges faced in automation, we are prominent in delivering best solutions for business development.</p>
+                      <p>
+                        Combining the dynamic control, automation and control systems analysis with sophisticated design of robotic arms, cutting-edge electronics and next generation software for peak performance of robots.
+                      </p>
+                      <div className="text-center text-lg-start">
+                        <a href="about.html" className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                          <span>Read More</span>
+                          <i className="bi bi-arrow-right" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
+                    <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="services" className="services">
+              <div className="container" data-aos="fade-up">
+                <header className="section-header">
+                  <h2>Services</h2>
+                  <p>We offer a wide range of services</p>
+                </header>
+                <div className="row gy-4">
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={200}>
+                    <div className="service-box blue">
+                      <img width="90px" height="90px" src="assets/images/3d.svg" alt="3d printing" />
+                      <h3>3D Printing</h3>
+                      <p> Low volume batch production with state of art 3D printing Systems.Precision prototyping with perplexing additive manufacturing techniques.</p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={300}>
+                    <div className="service-box orange">
+                      <img src="assets/images/cnc machine.svg" alt="cnc machine" width="90px" height="90px" />
+                      <h3> CNC Carving </h3>
+                      <p>We use cost effective and high precision techniques to carve minute parts from large pieces which undergo novel inspection techniques.</p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={400}>
+                    <div className="service-box green">
+                      <img src="assets/images/home.svg" alt="home automation" width="90px" height="90px" />
+                      <h3>Home Automation</h3>
+                      <p>Summing up with vanguard electronic technology our engineers create wonders in home automation.</p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={500}>
+                    <div className="service-box red">
+                      <img src="assets/images/industrial-robot.svg" alt="Industrial robot" width="90px" height="90px" />
+                      <h3>Industrial Robots </h3>
+                      <p>We design and manufacture robotic arms, automated food production systems and customer service bots with AI.</p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={600}>
+                    <div className="service-box purple">
+                      <img src="assets/images/process.svg" alt="" width="90px" height="90px" />
+                      <h3> Processing Automation </h3>
+                      <p> We deliver high end technologies for better lives and also economical growth and our atmost service include robotizing labor internship programs. </p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={700}>
+                    <div className="service-box pink">
+                      <img src="assets/images/handshake.svg" alt="" width="90px" height="90px" />
+                      <h3>Help and Support</h3>
+                      <p> Nourish and support the creative ideas in the form of bursaries. </p>
+                      <a href="services.html" className="read-more"><span>Read More</span> <i className="bi bi-arrow-right" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="values" className="values">
+              <div className="container" data-aos="fade-up">
+                <header className="section-header">
+                  <p>Our Business</p>
+                </header>
+                <div className="row">
+                  <div className="col-lg-4">
+                    <div className="box" data-aos="fade-up" data-aos-delay={200}>
+                      <img src="assets/img/values-1.png" className="img-fluid" alt="" />
+                      <h3> Technologies</h3>
+                      <p />
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-4 mt-lg-0">
+                    <div className="box" data-aos="fade-up" data-aos-delay={400}>
+                      <img src="assets/img/values-2.png" className="img-fluid" alt="" />
+                      <h3>Projects</h3>
+                      <p />
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-4 mt-lg-0">
+                    <div className="box" data-aos="fade-up" data-aos-delay={600}>
+                      <img src="assets/img/values-3.png" className="img-fluid" alt="" />
+                      <h3>Services</h3>
+                      <p />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="testimonials" className="testimonials">
+              <div className="container" data-aos="fade-up">
+                <header className="section-header">
+                  <h2>Testimonials</h2>
+                  <p>What Our Employees Say</p>
+                </header>
+                <div className="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay={200}>
+                  <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                      <div className="testimonial-item">
+                        <div className="stars">
+                          <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+                        </div>
+                        <p>
+                          I love exploring for creative solutions. I ace at creating trustworthy relationships.
+                        </p>
+                        <div className="profile mt-auto">
+                          <img src="assets/images/Sanju.png" className="testimonial-img" alt="" />
+                          <h3>Sanjeevlu</h3>
+                          <h4>Software Developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="testimonial-item">
+                        <div className="stars">
+                          <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+                        </div>
+                        <p>
+                          I love the freedom, fun, and boldness.
+                        </p>
+                        <div className="profile mt-auto">
+                          <img src="assets/images/Surender.png" className="testimonial-img" alt="" />
+                          <h3>Surender</h3>
+                          <h4> Robotics Perception Engineer </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="testimonial-item">
+                        <div className="stars">
+                          <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+                        </div>
+                        <p>
+                          I am very grateful for the opportunity Stonedge has given me to discover my hidden skills and gain experience in the industry. I am happy to work in a team.
+                        </p>
+                        <div className="profile mt-auto">
+                          <img src="assets/images/Mahesh.png" className="testimonial-img" alt="" />
+                          <h3>Mahesh</h3>
+                          <h4> Embedded Systems Developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="testimonial-item">
+                        <div className="stars">
+                          <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+                        </div>
+                        <p>
+                          Stonedge maintains a professional atmosphere. I enjoy working here for the professionalism in the environment. We are not treated as a number, but as part of the company.
+                        </p>
+                        <div className="profile mt-auto">
+                          <img src="assets/images/akhil.jpeg" className="testimonial-img" alt="" />
+                          <h3>Akhil</h3>
+                          <h4>Web Developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="swiper-slide">
+                      <div className="testimonial-item">
+                        <div className="stars">
+                          <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
+                        </div>
+                        <p>
+                          I truly enjoy to work in such a family, friendly &amp; happy atmosphere. It provides a whole bunch of opportunities to everyone in the organization especially to those who have the drive for it. I am proud to be part of Stonedge and appreciate the initiatives as an organization they take to develop their team members.
+                        </p>
+                        <div className="profile mt-auto">
+                          <img src="assets/images/Naresh.png" className="testimonial-img" alt="" />
+                          <h3> Naresh</h3>
+                          <h4>Embedded Systems developer</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="swiper-pagination" />
+                </div>
+              </div>
+            </section>
+            <section id="faq" className="faq">
+              <div className="container" data-aos="fade-up">
+                <header className="section-header">
+                  <h2>F.A.Q</h2>
+                  <p>Frequently Asked Questions</p>
+                </header>
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="accordion accordion-flush" id="faqlist1">
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                            What makes Stonedge Technologies unique?
+                          </button>
+                        </h2>
+                        <div id="faq-content-1" className="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                          <div className="accordion-body">
+                            Aspiring young minds are our pedestals of our firm.Our unique problem solving three step strategy; learn,predict and control uplifts us best in this market.Pragmatic analysis, feet on ground  and au courant being our best mates we take appreciation of our work.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                            Are there any limitations you put on the scale of your products?
+                          </button>
+                        </h2>
+                        <div id="faq-content-2" className="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                          <div className="accordion-body">
+                            Our products – Spot and Pick – are available for sale for commercial, industrial, enterprise and university research uses. Customers who want to buy Spot directly via our website can purchase up to two robots. For larger orders, our sales team would like to speak with customers to better explore how Spot can help them. Currently we only offer sales to customers in India. We still offer lease options for a select number of markets overseas.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="accordion accordion-flush" id="faqlist2">
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                            Where are your products made?
+                          </button>
+                        </h2>
+                        <div id="faq2-content-1" className="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                          <div className="accordion-body">
+                            We have our bases in Australia and India, where Australia is our Headquarters. Our R&amp;D team, manufacturing  unit and assembly plant sets off from India.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="accordion-item">
+                        <h2 className="accordion-header">
+                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                            Where are your clients from?
+                          </button>
+                        </h2>
+                        <div id="faq2-content-2" className="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                          <div className="accordion-body">
+                            As a globally renowned company we have clients across the globe, but our prominent clients are from India, Singapore, Australia and UK.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="contact" className="contact">
+              <div className="container" data-aos="fade-up">
+                <header className="section-header">
+                  <h2>Contact</h2>
+                  <p>Contact Us</p>
+                </header>
+                <div className="row gy-4">
+                  <div className="col-lg-6">
+                    <div className="row gy-4">
+                      <div className="col-md-6">
+                        <div className="info-box">
+                          <i className="bi bi-geo-alt" />
+                          <h3>Australia</h3>
+                          <p> 9 Butler Grove,<br />Wyndham Vale Victoria 3024</p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="info-box">
+                          <i className="bi bi-geo-alt" />
+                          <h3>India</h3>
+                          <p> 3-14-144, Rasoolpura<br />Hyderabad 506006</p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="info-box">
+                          <i className="bi bi-telephone" />
+                          <h3>Call Us</h3>
+                          <p>+91 7386926732</p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="info-box">
+                          <i className="bi bi-envelope" />
+                          <h3>Email Us</h3>
+                          <p>info@stonegdetech.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <form action="forms/contact.php" method="post" className="php-email-form">
+                      <div className="row gy-4">
+                        <div className="col-md-6">
+                          <input type="text" name="name" className="form-control" placeholder="Your Name" required />
+                        </div>
+                        <div className="col-md-6 ">
+                          <input type="email" className="form-control" name="email" placeholder="Your Email" required />
+                        </div>
+                        <div className="col-md-12">
+                          <input type="text" className="form-control" name="subject" placeholder="Subject" required />
+                        </div>
+                        <div className="col-md-12">
+                          <textarea className="form-control" name="message" rows={6} placeholder="Message" required defaultValue={""} />
+                        </div>
+                        <div className="col-md-12 text-center">
+                          <div className="loading">Loading</div>
+                          <div className="error-message" />
+                          <div className="sent-message">Your message has been sent. Thank you!</div>
+                          <button type="submit">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+          <footer id="footer" className="footer">
+            <div className="footer-newsletter">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-lg-12 text-center">
+                    <h4>Our Newsletter</h4>
+                    <p>Subscribe to our newsletter to get latest updates</p>
+                  </div>
+                  <div className="col-lg-6">
+                    <form action method="post">
+                      <input type="email" name="email" /><input type="submit" defaultValue="Subscribe" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="footer-top">
+              <div className="container">
+                <div className="row gy-4">
+                  <div className="col-lg-5 col-md-12 footer-info">
+                    <a href="index.html" className="logo d-flex align-items-center">
+                      <img src="assets/images/logo1.png" alt="" />
+                      <span>Stonedge</span>
+                    </a>
+                    <div className="social-links mt-3">
+                      <a href="https://twitter.com/stonedgetech" className="twitter"><i className="bi bi-twitter" /></a>
+                      <a href="https://www.facebook.com/Stonedge-Technologies-and-Robotics-112452134012267/" className="facebook"><i className="bi bi-facebook" /></a>
+                      <a href="https://www.instagram.com/stonedgetech/" className="instagram"><i className="bi bi-instagram bx bxl-instagram" /></a>
+                      <a href="https://www.linkedin.com/company/stonedgetech" className="linkedin"><i className="bi bi-linkedin bx bxl-linkedin" /></a>
+                    </div>
+                  </div>
+                  <div className="col-lg-2 col-6 footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Home</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">About us</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Contact</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Careers</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Terms of service</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Privacy policy</a></li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-2 col-6 footer-links">
+                    <h4>Business</h4>
+                    <ul>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Projects</a></li>
+                      <li><i className="bi bi-chevron-right" /> <a href="#">Team</a></li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                      3-14-144 <br />
+                      Rasoolpura, Secunderabad<br />
+                      506006 <br /><br />
+                      <strong>Phone:</strong> +91 7386926732<br />
+                      <strong>Email:</strong> info@stonedgetech.com<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="copyright">
+                © Copyright <strong><span>Stonedge Technologies and Robotics 2020</span></strong>
+              </div>
+            </div>
+          </footer>
+          <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a>
+        </div>
+      );
+    }
+  });
