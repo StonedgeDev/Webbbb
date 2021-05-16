@@ -1,81 +1,84 @@
-   
-.service-title{
-    text-align: center;
-  }
- .maincard {
-  
-    position: relative;
-    width: 300px;
-    height: 400px;
-  }
-  
-.thecard {
-    position: absolute;
-    width: 100%;
-    height: 85%;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease
-  }
-  
-.thecard:hover {
-    transform: rotateY(180deg) scale(1.08)
-  }
-  
-.thefront {
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    background-color: hidden;
-    background: #fff;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #eee;
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    padding: 10px;
-   }
+ 
+h3{
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 100px;
+  color: #012970;
+  text-align: center;
+}
 
-.thefront h3{
-    padding-top: 70px;
-    font-family: "Nunito", sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-   }
-  
-  
-  
-  
-.theback {
-   position: absolute;
-   width: 100%;
-   height: 90%;
-   cursor: pointer;
-   background-color: hidden;
-   background: #191b86;
-   color: #fff;
-   border-radius: 10px;
-   transform: rotateY(180deg);
-   border: 1px solid #eee;
-   box-shadow: 5px 6px 6px 2px #e9ecef;
-   padding: 10px
-  }
-  
-.user_name {
-   color: #eee;
-   font-size: 10px;
-   margin-top: 0px
-  }
-  
-.about h4{
-    text-align: center;
-   font-size: 30px;
-   font-weight: bold;
-   font-family: "Nunito", sans-serif; 
-  }
 
-.about p{
-    padding: 12px;
-    line-height: 2rem;
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-}  
+p{
+ color: #ffffff;
+ font-size: 15px;
+}
+
+
+@media (min-width:400px) {
+.item .box {
+    height: 400px;        
+    }
+}
+
+.people {
+  padding: 50px 0;
+  cursor: pointer
+}
+
+.item {
+  margin-bottom: 30px;
+ }
+
+.item .box {
+  color: #ffffff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  padding: 10px;
+}
+
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #012970;
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding: 30px;
+  padding-top:50px;
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+ 
+}
+
+.item:hover .cover {
+  opacity: 1
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px
+}
+
+.item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px
+}
+
+

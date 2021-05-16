@@ -1522,7 +1522,7 @@ Business
   border: 2px solid rgb(243, 241, 241);
   font-weight: 600;
   font-size: 15px;
-  width: 400px;
+  width: auto;
   transform: scale(0.3s);
 }
 
