@@ -90,6 +90,25 @@ h1, h2, h3, h4, h5, h6,span {
   max-height: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+ #header .logo{
+   font-size: 20px;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+ #header .logo img{
+   height: 25px;
+   width: 25px;
+ }
+ #header .logo a {
+ font-size: 20px;
+  color: #012970;
+}
+
+}
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -133,7 +152,7 @@ h1, h2, h3, h4, h5, h6,span {
 
 .getstarted {
   background: #012970;
-  padding: 8px 25px;
+  padding: 8px 28px;
   margin-left: 30px;
   border-radius: 4px;
   font-weight: 400;

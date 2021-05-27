@@ -44,6 +44,7 @@
     float: left;
     box-sizing: border-box;
     z-index: 19;
+    text-align: justify;
     display: none;
  }
  

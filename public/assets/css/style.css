@@ -476,7 +476,10 @@ section {
 @media (max-width: 991px) {
   .hero {
     height: auto;
-    padding: 120px 0 60px 0;
+    padding: 100px 0 50px 0;
+  }
+  .hero h1{
+    font-size: 40px;
   }
   .hero .hero-img {
     text-align: center;
@@ -489,13 +492,14 @@ section {
 
 @media (max-width: 768px) {
   .hero {
-    text-align: center;
+    text-align: justify;
   }
   .hero h1 {
-    font-size: 32px;
+    text-align: center;
+    font-size: 25px;
   }
   .hero h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .hero .hero-img img {
     width: 100%;
@@ -527,7 +531,9 @@ section {
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  
 }
+
 
 .about .btn-read-more {
   line-height: 0;
@@ -1017,16 +1023,16 @@ Our Solutions
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+.solution p{
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
   .solution h2 {
     font-size: 28px;
     line-height: 32px;
   }
 }
-
-
-
-
 
 
 /*--------------------------------------------------------------
