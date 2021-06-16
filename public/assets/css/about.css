@@ -50,7 +50,6 @@
 }
 
 .container-goal{
-    text-align: justify;
     width: 100%;
     height: auto;
     line-height: 2rem;
@@ -62,3 +61,13 @@
     border: 3px solid #012970;
     box-shadow:  10px 10px 20px rgba(1, 41, 112, 0.1);
 }
+
+@media (max-width: 768px) {
+   .container-goal{
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 15px;
+   }
+
+  }
+  
