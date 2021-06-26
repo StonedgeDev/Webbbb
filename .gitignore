@@ -10,10 +10,10 @@
 
 # production
 /build
-
-/vscode
-/firebase
-
+/.vscode
+/.firebase
+/.github
+/node_modules
 # misc
 .DS_Store
 .env.local
