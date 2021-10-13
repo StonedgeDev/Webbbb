@@ -1023,6 +1023,7 @@ section {
 Our Solutions
 ------------------------------------------------------*/
 
+
 .solution h2 {
   margin: 10px 0 0 0;
   padding: 0;
@@ -1051,6 +1052,35 @@ Our Solutions
     line-height: 32px;
   }
 }
+
+
+.sol-img .image{
+  padding: 5px;
+  width: 250px;
+  height: 270px;
+}
+
+@media screen and (max-width: 500px){
+  .sol-img .image{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.sol-btn{
+  background-color: #012970;
+  padding: 15px;
+
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.sol-btn:hover{
+  border: 1px solid #012970;
+  background-color:#fff;
+  color: #012970;
+  font-weight: bold;
+  }
 
 
 /*--------------------------------------------------------------

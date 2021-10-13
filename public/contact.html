@@ -136,29 +136,29 @@
             <p> Get in touch with us </p>
         </header>
     
-        <form action="forms/contact.php" method="post" class="php-email-form">
+        <form action="forms/contact.php" role="form" method="POST" class="php-email-form">
             <div class="row gy-4" style="margin-left: auto;">
                 
                 <div class="col-md-2"></div>
                 <div class="col-md-4">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-4 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                 </div>
                 <div class="col-md-2"></div>
 
                
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="col-md-2"></div> 
                 
   
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                    <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
                 </div>
                 <div class="col-md-2"></div>
   
@@ -307,6 +307,15 @@
               <li><i class="bi bi-chevron-right"></i> <a href="solutions.html">Solutions</a></li>
             </ul>
           </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>STAR Store</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Products</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html">Services</a></li>
+            </ul>
+          </div>
+          
         </div>
        </div>
       </div>
@@ -330,6 +339,9 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   
   <script src="assets/js/main.js"></script>
+<!--Contact form-->
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="assets/js/contact.js"></script>
  <!--Chat bot-->
 <script type="text/javascript">!function(t,e){t.artibotApi={l:[],t:[],on:function(){this.l.push(arguments)},trigger:function(){this.t.push(arguments)}};var a=!1,i=e.createElement("script");i.async=!0,i.type="text/javascript",i.src="https://app.artibot.ai/loader.js",e.getElementsByTagName("head").item(0).appendChild(i),i.onreadystatechange=i.onload=function(){if(!(a||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState)){new window.ArtiBot({i:"895c7dd0-5fb5-4eb8-bba5-068cf4f928ab"});a=!0}}}(window,document);</script>
 
