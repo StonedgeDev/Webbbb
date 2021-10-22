@@ -135,43 +135,41 @@
             <h2>Contact Form</h2>
             <p> Get in touch with us </p>
         </header>
-    
-        <form action="forms/contact.php" role="form" method="POST" class="php-email-form">
-            <div class="row gy-4" style="margin-left: auto;">
-                
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-4 ">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="col-md-2"></div>
+      
+      
+        <form action="forms/contact.php" role="form" method="POST" id="contactForm" class="php-email-form">
+            <div class="row gy-4">
 
-               
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="col-md-2"></div> 
-                
-  
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
-                </div>
-                <div class="col-md-2"></div>
-  
-                <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-  
-                   <button type="submit">Send Message</button>
-                </div>
-  
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <button type="submit">Send Message</button>
+              </div>
+
             </div>
-        </form>
+          </form>
+
+      
+
+
+
         <header class="section-header" style="padding-top: 20px;">
             <h2>Follow us on</h2>
             <p> <a href="https://www.facebook.com/Stonedge-Technologies-and-Robotics-112452134012267/" class="fa fa-facebook"></a>
