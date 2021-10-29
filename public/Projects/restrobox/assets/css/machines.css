@@ -81,18 +81,6 @@
  
 
 
-article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block;
-}
-body {
-    background:#f0e0e0 none repeat scroll 0 0;
-    color: #222;
-    font-size: 100%;
-    line-height: 24px;
-    margin: 0;
-	padding:0;
-	font-family: "Open Sans", sans-serif;
-}
 a{
 	font-family: "Jost", sans-serif;
 	text-decoration: none;
@@ -356,5 +344,12 @@ th, td {
 
 
 
+
+
+/* new */
+
+.active{
+  border: 2px solid #0b3988;
+}
 
 

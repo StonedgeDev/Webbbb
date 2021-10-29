@@ -403,6 +403,23 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.btn-brochure{
+  font-size: 25px;
+  height: 60px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #012970;
+  color: #ffffff;
+  transition: transform .5s ease;
+}
+.btn-brochure:hover{
+  background-color: #0b3988;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/

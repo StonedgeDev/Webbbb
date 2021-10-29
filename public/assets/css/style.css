@@ -1046,11 +1046,16 @@ Our Solutions
   text-align: justify;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .solution iframe{
+    width: 100%;
+  }
+  
   .solution h2 {
     font-size: 28px;
     line-height: 32px;
   }
+  
 }
 
 
@@ -1210,6 +1215,13 @@ Our Solutions
 
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-links h4 a {
+  color: #012970;
+}
+.footer .footer-top .footer-links h4 a:hover {
+  color: #013289;
 }
 
 .footer .footer-top .footer-links ul {
