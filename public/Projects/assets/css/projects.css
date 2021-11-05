@@ -12,6 +12,20 @@
     transform: scale(1.1);
 }
 
+.navbar .getstarted {
+    background: #012970;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .navbar .getstarted:hover {
+    color: #fff;
+    background: #5969f3;
+  }
+
+  
 .btn{
     font-size: 25px;
     height: 60px;
